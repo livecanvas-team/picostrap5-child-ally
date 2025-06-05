@@ -1,0 +1,23 @@
+{
+    "picostrap_posts_index_style": "default",
+    "picostrap_sidebar_position": "right",
+    "picostrap_container_type": "container",
+    "nav_menu_locations": {
+        "primary": 2
+    },
+    "custom_css_post_id": -1,
+    "sidebars_widgets": {
+        "time": 1748444737,
+        "data": {
+            "wp_inactive_widgets": [],
+            "main-sidebar": [
+                "block-2",
+                "block-3",
+                "block-4",
+                "block-5",
+                "block-6"
+            ],
+            "footerfull": []
+        }
+    }
+}

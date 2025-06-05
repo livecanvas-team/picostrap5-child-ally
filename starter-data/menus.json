@@ -1,0 +1,113 @@
+[
+    {
+        "menu_name": "Main Menu",
+        "menu_slug": "main-menu",
+        "items": [
+            {
+                "title": "Home",
+                "url": "http://localhost:8884/",
+                "menu_order": 1,
+                "parent": "0",
+                "type": "post_type",
+                "object": "page",
+                "object_id": "9",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "Projects",
+                "url": "#projects",
+                "menu_order": 2,
+                "parent": "0",
+                "type": "custom",
+                "object": "custom",
+                "object_id": "19",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "Single Project",
+                "url": "http://localhost:8884/single-project/",
+                "menu_order": 3,
+                "parent": "19",
+                "type": "post_type",
+                "object": "page",
+                "object_id": "52",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "Workflow",
+                "url": "#workflow",
+                "menu_order": 4,
+                "parent": "0",
+                "type": "custom",
+                "object": "custom",
+                "object_id": "21",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "Skills",
+                "url": "#skills",
+                "menu_order": 5,
+                "parent": "0",
+                "type": "custom",
+                "object": "custom",
+                "object_id": "22",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "Blog",
+                "url": "#blog",
+                "menu_order": 6,
+                "parent": "0",
+                "type": "custom",
+                "object": "custom",
+                "object_id": "39",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            },
+            {
+                "title": "FAQ",
+                "url": "#faq",
+                "menu_order": 7,
+                "parent": "0",
+                "type": "custom",
+                "object": "custom",
+                "object_id": "23",
+                "classes": [
+                    ""
+                ],
+                "attr_title": "",
+                "target": "",
+                "description": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+<section>
+	<div class="container py-6">
+		<div class="marquee lc-block position-relative overflow-x-hidden marquee--6x mw-8 mx-auto">
+
+			<style>
+      .marquee--6x {
+        --marquee-item-width: 96px;
+        --marquee-item-height: 96px;
+        --marquee-duration: 40s;
+        --marquee-items: 6;
+        block-size: var(--marquee-item-height);
+        margin-block: var(--marquee-item-height);
+        mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
+      }
+
+      .marquee6x_item {
+        --marquee-item-offset: max(calc(var(--marquee-item-width) * var(--marquee-items)),
+            calc(100% + var(--marquee-item-width)));
+        inset-inline-start: var(--marquee-item-offset);
+        animation: go6x linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
+      }
+    .marquee--6x .marquee6x_item:nth-of-type(1) { --marquee-item-index: 1; --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (6 - 1) * -1); }
+.marquee--6x .marquee6x_item:nth-of-type(2) { --marquee-item-index: 2; --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (6 - 2) * -1); }
+.marquee--6x .marquee6x_item:nth-of-type(3) { --marquee-item-index: 3; --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (6 - 3) * -1); }
+.marquee--6x .marquee6x_item:nth-of-type(4) { --marquee-item-index: 4; --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (6 - 4) * -1); }
+.marquee--6x .marquee6x_item:nth-of-type(5) { --marquee-item-index: 5; --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (6 - 5) * -1); }
+.marquee--6x .marquee6x_item:nth-of-type(6) { --marquee-item-index: 6; --marquee-delay: calc(var(--marquee-duration) / var(--marquee-items) * (6 - 6) * -1); }
+
+      @keyframes go6x {
+        to {
+          inset-inline-start: calc(var(--marquee-item-width) * -1);
+        }
+      }
+    </style>
+
+			<img class="marquee6x_item position-absolute translate-middle top-50 img-fluid" width="96" height="96" src="https://cdn.livecanvas.com/media/logos/logo/ai/anthropic-icon.svg" alt="logo1">
+			<img class="marquee6x_item position-absolute translate-middle top-50 img-fluid" width="96" height="96" src="https://cdn.livecanvas.com/media/logos/logo/ai/claude-icon.svg" alt="logo2">
+			<img class="marquee6x_item position-absolute translate-middle top-50 img-fluid" width="96" height="96" src="https://cdn.livecanvas.com/media/logos/logo/ai/google-bard-icon.svg" alt="logo3">
+			<img class="marquee6x_item position-absolute translate-middle top-50 img-fluid" width="96" height="96" src="https://cdn.livecanvas.com/media/logos/logo/ai/midjourney.svg" alt="logo4">
+			<img class="marquee6x_item position-absolute translate-middle top-50 img-fluid" width="96" height="96" src="https://cdn.livecanvas.com/media/logos/logo/ai/mistral-ai-icon.svg" alt="logo5">
+			<img class="marquee6x_item position-absolute translate-middle top-50 img-fluid" width="96" height="96" src="https://cdn.livecanvas.com/media/logos/logo/ai/openai-icon.svg" alt="logo6">
+		</div>
+	</div>
+</section>
